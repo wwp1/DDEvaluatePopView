@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C668BDAF20AAC967003B2D3E /* DDRatScoresStarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C668BDAE20AAC967003B2D3E /* DDRatScoresStarsView.m */; };
 		C66E227620A965AB00A8FA7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E227520A965AB00A8FA7B /* AppDelegate.m */; };
 		C66E227920A965AB00A8FA7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E227820A965AB00A8FA7B /* ViewController.m */; };
 		C66E227C20A965AB00A8FA7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66E227A20A965AB00A8FA7B /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		C66E22AB20A9668400A8FA7B /* DDEvaluatePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E22A820A9668400A8FA7B /* DDEvaluatePopView.m */; };
 		C66E22AC20A9668400A8FA7B /* DDEvaluatePopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E22A920A9668400A8FA7B /* DDEvaluatePopViewCell.m */; };
 		C66E22B220A96BCA00A8FA7B /* UIColor+DDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E22B120A96BCA00A8FA7B /* UIColor+DDColor.m */; };
-		C66E22B520A980E400A8FA7B /* DDRatScoresStarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66E22B420A980E400A8FA7B /* DDRatScoresStarsView.m */; };
 		C66E22B820A9861400A8FA7B /* Star_da@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C66E22B620A9861400A8FA7B /* Star_da@2x.png */; };
 		C66E22B920A9861400A8FA7B /* Star_da@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C66E22B720A9861400A8FA7B /* Star_da@3x.png */; };
 		C66E22BC20A9863000A8FA7B /* Star_hei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C66E22BA20A9862F00A8FA7B /* Star_hei@2x.png */; };
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C668BDAD20AAC967003B2D3E /* DDRatScoresStarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRatScoresStarsView.h; sourceTree = "<group>"; };
+		C668BDAE20AAC967003B2D3E /* DDRatScoresStarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRatScoresStarsView.m; sourceTree = "<group>"; };
 		C66E227120A965AB00A8FA7B /* EvaluatePopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvaluatePopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66E227420A965AB00A8FA7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C66E227520A965AB00A8FA7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,8 +67,6 @@
 		C66E22AA20A9668400A8FA7B /* DDEvaluatePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDEvaluatePopView.h; sourceTree = "<group>"; };
 		C66E22B020A96BCA00A8FA7B /* UIColor+DDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DDColor.h"; sourceTree = "<group>"; };
 		C66E22B120A96BCA00A8FA7B /* UIColor+DDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DDColor.m"; sourceTree = "<group>"; };
-		C66E22B320A980E400A8FA7B /* DDRatScoresStarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRatScoresStarsView.h; path = ../../../../dingdingyueche/ddios/DingDing/DingDing/Business/Toos/DDToos/DDRatScoresStarsView.h; sourceTree = "<group>"; };
-		C66E22B420A980E400A8FA7B /* DDRatScoresStarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRatScoresStarsView.m; path = ../../../../dingdingyueche/ddios/DingDing/DingDing/Business/Toos/DDToos/DDRatScoresStarsView.m; sourceTree = "<group>"; };
 		C66E22B620A9861400A8FA7B /* Star_da@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star_da@2x.png"; sourceTree = "<group>"; };
 		C66E22B720A9861400A8FA7B /* Star_da@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star_da@3x.png"; sourceTree = "<group>"; };
 		C66E22BA20A9862F00A8FA7B /* Star_hei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Star_hei@2x.png"; sourceTree = "<group>"; };
@@ -162,12 +162,12 @@
 		C66E22A620A9667800A8FA7B /* EvaluatePopView */ = {
 			isa = PBXGroup;
 			children = (
+				C668BDAD20AAC967003B2D3E /* DDRatScoresStarsView.h */,
+				C668BDAE20AAC967003B2D3E /* DDRatScoresStarsView.m */,
 				C66E22AA20A9668400A8FA7B /* DDEvaluatePopView.h */,
 				C66E22A820A9668400A8FA7B /* DDEvaluatePopView.m */,
 				C66E22A720A9668400A8FA7B /* DDEvaluatePopViewCell.h */,
 				C66E22A920A9668400A8FA7B /* DDEvaluatePopViewCell.m */,
-				C66E22B320A980E400A8FA7B /* DDRatScoresStarsView.h */,
-				C66E22B420A980E400A8FA7B /* DDRatScoresStarsView.m */,
 			);
 			path = EvaluatePopView;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 				C66E227920A965AB00A8FA7B /* ViewController.m in Sources */,
 				C66E228420A965AC00A8FA7B /* main.m in Sources */,
 				C66E227620A965AB00A8FA7B /* AppDelegate.m in Sources */,
+				C668BDAF20AAC967003B2D3E /* DDRatScoresStarsView.m in Sources */,
 				C66E22AB20A9668400A8FA7B /* DDEvaluatePopView.m in Sources */,
 				C66E22B220A96BCA00A8FA7B /* UIColor+DDColor.m in Sources */,
-				C66E22B520A980E400A8FA7B /* DDRatScoresStarsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
